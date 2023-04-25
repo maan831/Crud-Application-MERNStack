@@ -1,0 +1,25 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+ul li{
+    list-style: none;
+}
+.card{
+    
+    margin: auto;
+    padding: 1rem;
+    width: 250px;
+    height: 100;
+    box-shadow: 5px 5px 10px #ccc;
+    align-items: center;
+}
+.card img{
+    height: 100px ;
+    width: 100px;
+    object-fit: cover;
+}
